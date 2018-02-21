@@ -1,6 +1,6 @@
 var portfolio = [
   { link: 'https://codepen.io/barbarap/full/xpwaBv/',
-    img:  'https://s3-us-west-2.amazonaws.com/i.cdpn.io/1253438.xpwaBv.small.9025970f-63f1-4d84-ae49-a1b5b1d55339.png', 
+    img:  'https://s3-us-west-2.amazonaws.com/i.cdpn.io/1253438.xpwaBv.small.5b5f3276-f259-4883-aaa3-fa6f723ea72a.png', 
     alt: 'FCC Simon Game Project (on CodePen)',
     caption: 'Simon Game'},
   { link: 'https://codepen.io/barbarap/full/RjdqEd/',
