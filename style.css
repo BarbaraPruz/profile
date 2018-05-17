@@ -108,12 +108,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', end
 
 #contact-section {
   margin: auto;
-  font-size: 1.25em;
   color: black;
-}
-
+  padding: 20px;
+  font-size: 1.25em;
+} 
 #contact-section i {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 #contact-section a {
