@@ -1,75 +1,126 @@
-<!DOCTYPE html>
-<html lang="en" >
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Full Stack Developer Profile">
+    <meta name="author" content="barbara prusiewicz">
 
-<head>
-  <meta charset="UTF-8">
-  <title>Portfolio Page</title>
-  
-  
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <title>barbara prusiewicz - profile</title>
 
-      <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap core CSS, font awesome, and page styles-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet">
 
-  
-</head>
+  </head>
 
-<body>
+  <body>
 
-  <div class="container-fluid">
-  <div class="myHeader">
-    <h1><br/>barbara prusiewicz</h1>
-    <nav class="navbar navbar-expand-sm justify-content-end">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a> </li>
-      </ul>
+    <nav class="navbar navbar-expand-md fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-section">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio-section">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-section">Contact</a>
+          </li>                    
+        </ul>
+      </div>
     </nav>
-  </div>
 
-  <div class="section">
-    <h2><a name="about">About</a></h2>
-    <div class="row">
-      <div class="col-xs-9 col-md-9">
-        <p>Sofware engineer with extensive experience in C/C++ and all aspects of product development. Special interests include object oriented programming, design patterns and user interface design. Most of this work was done for POS devices.</p>
-        <p>Now transitioning to Front End Development and enjoying coding again!
-          <p>
-            <p>HTML, CSS, BootStrap, JavaScript, JQuery</p>
+    <main role="main" class="container">
+      <div class="cover" id="about-cover">
+       <h1>barbara prusiewicz</h1>
+       <h2>web developer</h2>
+       <p>things I like to do: solve problems, build web apps, and enjoy the ride!</p>
       </div>
-      <div class="col-xs-2 col-md-2">
-        <img src="https://drive.google.com/uc?id=1OkcAaJOBU9oF-1rlvO7k6dWt1_zxfGn9" alt="barbara prusiewicz">
+      <div id="about-section" class="section-details">
+        <div class="row">
+          <div class="col-sm-9">
+            <p>Simply, I'm a software person - I like coding, talking about it, thinking about it, and having fun with it. I am now applying my years of experience in C/C++ to full stack web development.</p>
+            <p>I am based out of Honolulu and have a lot of experience working remotely.  In fact, one of the things that kept me in my last job was the opportunity to collaborate with customers and engineers around the world.</p>
+            <div class="sub-section">
+              <div class="row">
+                <strong>Skills:&nbsp;</strong> HTML, CSS, BootStrap, JavaScript, JQuery, Ruby</div>   
+              <div class="row">
+                <strong>Interests:&nbsp;</strong> Design Patterns, Ux Design
+              </div>
+              <div class="row">
+                  <strong>More Experience:&nbsp;</strong> Git, Jira, Sharepoint (admin), Agile developement
+              </div> 
+            </div>                    
+          </div>
+          <div class="col-sm-3">
+            <img class="img-thumbnail" src="images/me-66.jpg" alt="barbara prusiewicz">
+          </div>
+        </div>
+
       </div>
-    </div>
-  </div>
-  <div class="line"></div>
+      <div class="cover" id="portfolio-cover">
+        <div class="center-vh">
+          <h2>portfolio</h2>
+          <p>(just getting started)</p>
+        </div>
+      </div>
+      <div class="section-details" id="portfolio-section">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="portfolio-card">
+              <h5>PDP "in progress"</h5>
+              <a href="http://www.powerdeliveryproducts.com/Site2018/index.php#/" target="_blank"><img class="img-thumbnail" src="images/pdp.png" alt="PDP website"></a>
+              <p class="sub-section">Refresh static webpage.<br/>               
+              Bootstrap 4, Javascript (with Sammy Lib), uses Google Maps API.<br/>
+              <a href="http://www.powerdeliveryproducts.com/Site2018/index.php#/" target="_blank">Website</a></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="portfolio-card">           
+            <h5>Pomodoro Clock</h5>
+              <a href="https://codepen.io/barbarap/full/gXopqJ/" target="_blank"><img class="img-thumbnail" src="images/pomodoro.png" alt="Pen-PomodoroClock"></a>
+              <p class="sub-section">Free Code Camp Front End Project. Uses jquery, javascript classes, and observer pattern. <br/>
+              <a href="https://codepen.io/barbarap/full/gXopqJ/" target="_blank">CodePen</a></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="portfolio-card">            
+              <h5>Local Weather</h5>
+              <a href="https://codepen.io/barbarap/full/rzNedy/" target="_blank"><img class="img-thumbnail" src="images/weather.png" alt="Pen-LocalWeather"></a>
+              <p class="sub-section">Free Code Camp Front End Project. Uses ajax, jquery, and javascript. <br/>
+              <a href="https://codepen.io/barbarap/full/rzNedy/" target="_blank">CodePen</a></p>
+            </div>
+          </div>                           
+        </div>
+      </div>
 
-  <div class="section">
-    <h2><a name="portfolio">Portfolio</a></h2>
-    <h3>Free Code Camp Projects</h3>
-    <p>Just starting to build portfolio of Front End projects. Meanwhile, here are some small projects from Free Code Camp Front End Development Certification. These projects use HTML, CSS, Bootstrap, Javascript, and JQuery.</p>
-    <div id="portfolio">
-    </div>
-  </div>
-  <div class="line"></div>
+      <div class="cover" id="contact-cover">
+          <h2 class="center-vh">contact</h2>
+        </div>
+        <div class="section-details" id="contact-section">
+          <ul class="list-unstyled">
+            <li><a href="mailto:barbara.prusiewicz@gmail.com"><i class="fa fa-envelope-o"></i>&nbsp;Email barbara.prusiewicz@gmail</a></li>
+            <li><a href="https://www.linkedin.com/in/barbara-prusiewicz-a523945/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;LinkedIn</a></li>
+          </ul>
+        </div>
   
-  <div class="section">
-    <h2><a name="contact">Contact</a></h2>
-    <ul style="list-style: none;">
-      <li><a href="https://www.linkedin.com/in/barbara-prusiewicz-a523945/" target="_blank">Barbara Prusiewicz on LinkedIn</a></li>
-      <li><a href="mailto:barbara.prusiewicz@gmail.com">Email</a></li>
-    </ul>
-  </div>
-</div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    </main>
 
-  
-
-    <script  src="js/index.js"></script>
-
-
-
-
-</body>
-
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>    
+  </body>
 </html>
