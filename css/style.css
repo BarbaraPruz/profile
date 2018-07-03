@@ -1,62 +1,111 @@
+/* Show it's not fixed to the top */
 body {
-  background: #bdf4ef;
-}
-h1 {
-  color: #737373;
-  margin-bottom: 0px;
-}
-h2, h3 {
-  color: #737373;
+  padding-top: 5em;
 }
 
-.myHeader {
+nav {
+  position: absolute;
+}
+
+.navbarCollapse {
+  margin-right: 5em;
+}
+
+/* parallax - images and captions */
+.bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  height: 120px;
-  background: #20c5b5;   /* For browsers that do not support gradients */    
-  background: -webkit-linear-gradient(left top, #20c5b5,  #66d9ff); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #20c5b5,  #66d9ff); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #20c5b5,  #66d9ff); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #20c5b5,  #66d9ff); /* Standard syntax (must be last) */
-} 
-.section {
-  margin-top: 10px;
-  margin-left: 10%;
-  margin-bottom: 20px;
-  margin-right: 10%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("../images/dreamstime_xs_38740695.jpg");
+  min-height: 400px;
 }
 
-.nav {
-    position:absolute;
-    bottom:0;
-    right:10%;
-}
-.nav-link {
-  color:  #737373; ;
-}
-.nav.navbar-nav a:hover {
- color: grey;
+.bgimg-2 {
+  background-image: url("../images/dreamstime_s_98850843.jpg");
+  min-height: 250px;
 }
 
-#portfolio {
-  display: grid;
-  grid-template-columns: 18% 18% 18% 18% 18%;
-  grid-gap: 15px;
+.bgimg-3 {
+   background-image: url("../images/3d-abstract-globe-1395753784KuH.jpg");
+  min-height: 250px;
 }
-.entry {
-  border-radius: 5px;
-}
-img {
-  max-width: 100%;
-}
+
 .caption {
-  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
   text-align: center;
 }
 
-.line {
-  height: 3px;
-  background:  #7be3ea; //#20c5d0;;
-  margin-top: 20px; 
-  margin-left: 10%;
-  margin-right: 10%;
+.caption span.title {
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  background-color:transparent;
 }
+
+/* styles for section information */
+h2 {
+  color:#05374A;
+  text-align: center;
+}
+.section-details{
+  width: 85%;
+  margin: 20px auto 40px auto;
+  background: #dee6ea;
+  box-shadow: 1px 3px 10px #05374A;
+}
+
+.sub-section {
+  width: 80%;
+  margin: auto;
+}
+
+#about-section  {
+  padding: 30px;
+}
+
+.portfolio-card {
+  background: white;
+  margin: 20px;
+  box-shadow: 1px 3px 10px #ccc;
+}
+
+.portfolio-card h5 {
+  text-align: center;
+}
+.portfolio-card p, a {
+  font-size: .9em;
+}
+
+#contact-section {
+  padding: 30px;
+} 
+#contact-section a {
+  color: #05394E;
+  font-size: 1.1em;
+}
+#contact-section a:hover {
+  color: #17BBD1;
+}
+
+/* Turn off parallax scrolling for tablets and phones, no caption on bg photos and left align detail paragraphs */
+@media only screen and (max-device-width: 1200px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+  }
+  .caption {
+    visibility: hidden;   
+    /* width:auto;*/
+  }
+  .section-details {
+    text-align: left;
+  }
+}
+
