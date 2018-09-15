@@ -27,12 +27,12 @@ nav {
 
 .bgimg-2 {
   background-image: url("../images/dreamstime_s_98850843.jpg");
-  min-height: 250px;
+  min-height: 200px;
 }
 
 .bgimg-3 {
    background-image: url("../images/3d-abstract-globe-1395753784KuH.jpg");
-  min-height: 250px;
+  min-height: 200px;
 }
 
 .caption {
@@ -58,8 +58,8 @@ h2 {
 .section-details{
   width: 85%;
   margin: 20px auto 40px auto;
-  background: #dee6ea;
-  box-shadow: 1px 3px 10px #05374A;
+ /* background: #dee6ea;*/
+/*  box-shadow: 1px 3px 10px #05374A;*/
 }
 
 .sub-section {
