@@ -11,7 +11,8 @@
 
   <!-- Bootstrap core CSS, font awesome, and page styles-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
   <link href="./css/style.css" rel="stylesheet">
 </head>
 
@@ -70,7 +71,7 @@
 
     </div>
     
-    <div class="bgimg-1">
+    <div class="bgimg-2">
       <div class="caption">
         <span class="title"><strong>projects</strong></span>
       </div>
@@ -79,53 +80,86 @@
     <div id="portfolio-section" class="section-details">
       <div class="row">
         <div class="col-sm-4">
-          <div class="portfolio-card">
-            <h5>Power Delivery Products</h5>
-            <a href="http://www.powerdeliveryproducts.com/Site2018/index.php#/" target="_blank"><img class="img-thumbnail" src="images/pdp.png" alt="PDP website"></a>
-            <p class="sub-section">Refresh static webpage.<br/>               
-                Bootstrap 4, Javascript (with Sammy Lib), uses Google Maps API.<br/>
-            <a href="http://www.powerdeliveryproducts.com/Site2018/index.php#/" target="_blank">Website</a></p>
-          </div>
+          <section class="project-tile">          
+            <img src="images/pdp.png" alt="PDP Website"> 
+            <h5 class="image-label">PDP Company Website</h5>
+            <section class="project-description-section">
+              <div class="project-description-text">
+                <h3 class="project-title">Power Delivery Products</h3>
+                <p>Refresh static webpage.</p>
+                <ul>              
+                  <li>Bootstrap 4, Javascript (with Sammy Lib)</li>
+                  <li>Google Maps API.</li>  
+                </ul>                               
+                <a href="http://www.powerdeliveryproducts.com/Site2018/index.php#/" target="_blank">Website</a>
+              </div>
+            </section>
+          </section>
         </div>
         <div class="col-sm-4">
-          <div class="portfolio-card">           
-            <h5>ike Knowledgebase</h5>
-            <a href="https://github.com/BarbaraPruz/ike" target="_blank"><img class="img-thumbnail" src="images/ike.png" alt="ike-knowledgebase"></a>
-            <p class="sub-section">Flatiron Bootcamp Rails Project. General 'knowledgebase' content management app.<br/>
-            <a href="https://github.com/BarbaraPruz/ike" target="_blank">GitHub</a><br>
-            <a href="https://blooming-earth-90734.herokuapp.com" target="_blank">Heroku</a></p>
-          </div>
+          <section class="project-tile">
+            <img src="images/ike.png" alt="ike knowledgebase">
+            <h5 class="image-label">‘ike Content Management App</h5>                
+            <section class="project-description-section">
+              <div class="project-description-text">
+                <h3 class="project-title">ike knowledgebase</h3>
+                <p class="sub-section">Flatiron Bootcamp Rails Project. General 'knowledgebase' content management app.<br/>
+                    <a href="https://github.com/BarbaraPruz/ike" target="_blank">GitHub</a><br>
+                    <a href="https://blooming-earth-90734.herokuapp.com" target="_blank">Heroku</a>
+                </p>          
+              </div>
+            </section>
+          </section>
         </div> 
         <div class="col-sm-4">
-            <div class="portfolio-card">           
-              <h5>Bucketlist</h5>
-              <a href="https://github.com/BarbaraPruz/bucketlist" target="_blank"><img class="img-thumbnail" src="images/bucketlist2.png" alt="bucketlist"></a>
-              <p class="sub-section">Flatiron Bootcamp Ruby Project. Uses Sinatra and ActiveRecord. MVC pattern.<br/>
-              <a href="https://github.com/BarbaraPruz/bucketlist" target="_blank">GitHub</a></p>
-            </div>
-          </div>                                                 
+          <section class="project-tile">
+            <img src="images/bucketlist2.png" alt="bucketlist">
+            <h5 class="image-label">bucketlist Web App</h5>
+            <section class="project-description-section">
+              <div class="project-description-text">
+                <h3 class="project-title">bucketlist Web App</h3>
+                <p class="sub-section">Flatiron Bootcamp Ruby Project. Uses Sinatra and ActiveRecord. MVC pattern.<br/>
+                  <a href="https://github.com/BarbaraPruz/bucketlist" target="_blank">GitHub</a>
+                </p>                      
+              </div>                  
+            </section>                
+          </section>
+        </div> 
       </div>
+                                                     
       <div class="row">
         <div class="col-sm-4">
-          <div class="portfolio-card">           
-            <h5>Pomodoro Clock</h5>
-            <a href="https://codepen.io/barbarap/full/gXopqJ/" target="_blank"><img class="img-thumbnail" src="images/pomodoro.png" alt="Pen-PomodoroClock"></a>
-            <p class="sub-section">Free Code Camp Front End Project. Uses jquery, javascript classes, and observer pattern. <br/>
-            <a href="https://codepen.io/barbarap/full/gXopqJ/" target="_blank">CodePen</a></p>
-          </div>
+          <section class="project-tile"> 
+            <img src="images/pomodoro.png" alt="Pen-PomodoroClock">
+            <h5 class="image-label">Pomodoro Clock - FrontEnd App</h5>
+            <section class="project-description-section">
+              <div class="project-description-text">               
+                <h3 class="project-title">Pomodoro Clock</h3>
+                <p class="sub-section">Free Code Camp Front End Project. Uses jquery, javascript classes, and observer pattern. <br/>
+                  <a href="https://codepen.io/barbarap/full/gXopqJ/" target="_blank">CodePen</a>
+                </p>
+              </div>
+            </section>
+          </section>
         </div>   
         <div class="col-sm-4">
-          <div class="portfolio-card">            
-            <h5>Local Weather</h5>
-            <a href="https://codepen.io/barbarap/full/rzNedy/" target="_blank"><img class="img-thumbnail" src="images/weather.png" alt="Pen-LocalWeather"></a>
-            <p class="sub-section">Free Code Camp Front End Project. Uses ajax, jquery, and javascript. <br/>
-            <a href="https://codepen.io/barbarap/full/rzNedy/" target="_blank">CodePen</a></p>
-          </div>
+          <section class="project-tile"> 
+            <img src="images/weather.png" alt="Pen-LocalWeather">            
+            <h5 class="image-label">Local Weather - FrontEnd App</h5>
+            <section class="project-description-section">
+              <div class="project-description-text">
+                <h3 class="project-title">Local Weather</h3>             
+                <p class="sub-section">Free Code Camp Front End Project. Uses ajax, jquery, and javascript. <br/>
+                  <a href="https://codepen.io/barbarap/full/rzNedy/" target="_blank">CodePen</a>
+                </p>
+              </div>
+            </section>
+          </section>
         </div>                           
-      </div>
-    </div>
+      </div> 
+    </div>  <!-- end portfolio section -->
     
-    <div class="bgimg-1">
+    <div class="bgimg-3">
       <div class="caption">
         <span class="title">contact</span>
       </div>
