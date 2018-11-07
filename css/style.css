@@ -54,6 +54,7 @@ ul {
   list-style: none;
   text-align: left;
 }
+
 /* styles for section information */
 h2 {
   color:#05374A;
@@ -143,8 +144,11 @@ h2 {
   white-space: wrap;
   width: 350px;
   height: 100%;
-  text-align: center;
   padding: 10px;
+}
+
+.project-description-text h3 {
+  text-align: center;
 }
 
 .project-description-text a {
