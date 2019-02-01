@@ -181,17 +181,20 @@ h2 {
   color: #17BBD1;
 }
 
-/* Turn off parallax scrolling for tablets and phones, no caption on bg photos and left align detail paragraphs */
-@media only screen and (max-device-width: 1200px) {
+/* Mobile specific style overrides */
+@media only screen and (max-width: 1200px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
-      background-attachment: scroll;
+     background-attachment: scroll;
+  /*  background-image: none;*/
   }
   .caption {
-    visibility: hidden;   
+ /*   visibility: hidden;   */
     /* width:auto;*/
   }
   .section-details {
     text-align: left;
+    width: 100%;
   }
+  .sub-section {
+    width: 100%;  
 }
-
