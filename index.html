@@ -7,228 +7,232 @@
   <meta name="description" content="Full Stack Developer Profile">
   <meta name="author" content="barbara prusiewicz">
 
-  <title>barbara prusiewicz - profile</title>
+  <title>barbara prusiewicz - porfolio</title>
 
-  <!-- Bootstrap core CSS, font awesome, and page styles-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="./css/style.css" rel="stylesheet">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" role="navigation">
-    <a class="navbar-brand" href="#">barbara prusiewicz</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about-section">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#portfolio-section">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact-section">Contact</a>
-        </li>                    
-      </ul>
-    </div>
-  </nav>
-
-  <div class = "container-fluid">
-
-    <div class="bgimg-1">
-      <div class="caption">
-        <span class="title">about me</span>
-      </div>
-    </div>    
-    <div id="about-section" class="section-details">
-      <div class="row">
-        <div class="col-sm-9">
-          <p>Simply, I'm a software person. I like building software - especially when it helps people solve problems.
-            I like talking and thinking about software - especially how the pieces fit and work together to accomplish goals.
-            And I just like having fun with coding. I am now applying my years of experience in C/C++ to full stack web development.</p>
-          <p>I am based out of Honolulu and have a lot of experience working remotely.  In fact, one of the things that kept me in my last job was the opportunity to collaborate with customers and engineers around the world.</p>
-          <div class="sub-section">
-            <div class="row">
-              <strong>Skills:&nbsp;</strong> Ruby on Rails, JavaScript, React, Redux, HTML, CSS, BootStrap 
-            </div>   
-            <div class="row">
-              <strong>Interests:&nbsp;</strong> Design Patterns, Ux Design
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">projects</a>
+                    </li>     
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">contact</a>
+                    </li>                                      
+                  </ul>
+                </div>
+              </nav>
+    <div class="container-fluid">
+   
+        <section id="intro">
+            <h1 class="text-center">hi, my name is barbara</h1>
+            <h4 class="text-center">web developer / software engineer</h4>
+            <h4 class="text-center">i like to solve problems for people</h4>            
+            <div class="button-panel">
+                <a href="#about" class="flat-button">about</a>        
+                <a href="#projects" class="flat-button">projects</a>
+                <a href="#contact" class="flat-button">contact</a>            
             </div>
-            <div class="row">
-              <strong>More Experience:&nbsp;</strong> Git, Jira, Sharepoint (admin), Agile developement
-            </div> 
-          </div>
-        </div>                   
-        <div class="col-sm-3">
-          <img class="img-thumbnail" src="images/me-66.jpg" alt="barbara prusiewicz">
-        </div>
-      </div>
+        </section>
+
+        <section id="about" class="shaded-section">   
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 align-self-center">
+                        <h2 >about</h2>
+                    </div>
+                    <div class="col-md-9" >
+                        <div class="container"> 
+                            <div class="row">
+                                <div class="col-sm-8 align-self-center">
+                                    <p>At heart, I'm an engineer. I enjoy a good problem and have fun 
+                                     building software solutions.  I am now applying my C/C++ expertise to 
+                                     full stack web development.
+                                    </p>                                      
+                                    <p>I am based out of Honolulu and have a lot of experience working remotely. In 
+                                    my career, I have collaborated with customers and developers around the world.
+                                    </p>                                                                                       
+                                </div>
+                                <div class="col-sm-4">
+                                   <img class="img-thumbnail" src="images/me-66.jpg" alt="barbara prusiewicz"> 
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top:2em">
+                                <div class="col-sm-2 align-self-center">
+                                    <span class="label">philosophy</span>
+                                </div> 
+                                <div class="col-sm-10">
+                                    <p>
+                                        For me, building web apps is really about solving problems for people. The most 
+                                        important question - what does the user want to accomplish? It's not about 
+                                        building something but building the right thing. 
+                                        And life is short - so make it enjoyable (or at least stress free) for the user.
+                                    </p> 
+                                </div>                                        
+                            </div>
+                            <div class="row" style="margin-bottom: 2em">
+                                    <div class="col-sm-2 align-self-center">
+                                        <p class="label">skills, interests and more</p>
+                                    </div>                                 
+                                    <div class="col-sm-10">
+                                            <li>React, Redux, Ruby on Rails, JavaScript, HTML, CSS, BootStrap </li>
+                                            <li>Design Patterns, Ux Design, Material UI</li>
+                                            <li>Git, Jira, Sharepoint (admin), Agile developement</li>
+                                    </div>
+                            </div>
+                        </div>                                    
+                    </div>        
+                </div>
+            <div>    
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 align-self-center">
+                        <h2>projects</h2>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="project-tile">          
+                            <img src="images/pdp.png" alt="PDP Website"> 
+                            <div class="project-description-section">
+                                <div class="project-description-text">
+                                    <h3 class="project-title">Power Delivery Products</h3>
+                                    <p>Refresh static webpage.</p>
+                                    <p>             
+                                        Bootstrap 4, Javascript (with Sammy Lib)<br>
+                                        Uses Google Maps API. 
+                                    </p>                               
+                                    <a href="http://www.powerdeliveryproducts.com/#/" target="_blank">Website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="project-tile">          
+                            <img src="images/chatto.png" alt="Chatto"> 
+                            <div class="project-description-section">
+                                <div class="project-description-text">
+                                    <h3 class="project-title">Chatto</h3>
+                                    <p>Chat App project just for fun and learning</p>
+                                    <p>             
+                                        Rails backend with Devise-jwt.<br>
+                                        React/Redux frontend with material-ui and React high-order-component for authorization checks. 
+                                    </p>                   
+                                    <p>
+                                        <a href="https://github.com/BarbaraPruz/chatto" target="_blank">GitHub</a><br>
+                                        <a href="https://secure-savannah-88233.herokuapp.com/" target="_blank">Heroku</a>
+                                    </p>                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="project-tile">          
+                            <img src="images/clocks.png" alt="clocks"> 
+                            <div class="project-description-section">
+                                <div class="project-description-text">                                
+                                    <h3 class="project-title">World Clocks</h3>   
+                                    <p>World timezones clock app.  Exploring React-Hooks!</p>
+                                    <p>             
+                                      React with useState, useReducer and useEffect hooks.
+                                    </p>
+                                    <p>             
+                                      Responsive design using CSS Grid 
+                                    </p>                       
+                                    <p>
+                                      <a href="https://github.com/BarbaraPruz/clocks" target="_blank">GitHub Repository</a><br>
+                                      <a href="http://barbarapruz.com/clocks/" target="_blank">GitHub App Page</a>
+                                    </p>                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="project-tile">          
+                            <img src="images/news4u.png" alt="news4u webapp"> 
+                            <div class="project-description-section">
+                                <div class="project-description-text">
+                                    <h3 class="project-title">news4u</h3>
+                                    <p>Flatiron Bootcamp Portfolio Project using React/Redux with Rails.</p> 
+                                    <p>Pulls news information from newsapi.org.</p>          
+                                    <p>
+                                      <a href="https://github.com/BarbaraPruz/news4u" target="_blank">GitHub</a><br>
+                                      <a href="https://desolate-harbor-54820.herokuapp.com/" target="_blank">Heroku</a>
+                                    </p>          
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-md-4">
+                        <div class="project-tile">          
+                            <img src="images/ike.png" alt="ike knowledgebase">             
+                            <div class="project-description-section">
+                                <div class="project-description-text">
+                                    <h3 class="project-title">ike knowledgebase</h3>
+                                    <p>Flatiron Bootcamp Portfolio Project using Rails.</p>
+                                    <p>General 'knowledgebase' content management app.</p>
+                                    <p>
+                                        <a href="https://github.com/BarbaraPruz/ike" target="_blank">GitHub</a><br>
+                                        <a href="https://blooming-earth-90734.herokuapp.com" target="_blank">Heroku</a>
+                                    </p>          
+                                </div>
+                            </div>  
+                        </div>
+                    </div>                                                             
+                </div>                
+            </div>
+        </section>
+
+        <section id="contact" class="shaded-section">   
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 align-self-center">
+                        <h2 >contact</h2>
+                    </div>
+                    <div class="col-md-9" > 
+                        <div class="row">
+                            <h3>i'd like to hear from you!</h3>
+                        </div>       
+                        <div class="row" style="padding-top:1em">
+                            <h5>
+                               <a href="mailto:barbara.prusiewicz@gmail.com"><i class="fa fa-envelope-o"></i>&nbsp;email barbara.prusiewicz@gmail.com</a>
+                            </h5> 
+                        </div>
+                        <div class="row">           
+                            <h5>
+                                <a href="https://www.linkedin.com/in/barbara-prusiewicz-a523945/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;LinkedIn</a></li>
+                            </h5>                            
+                        </div>
+
+                    </div>
+                </div>
+        </section>
 
     </div>
-    
-    <div class="bgimg-2">
-      <div class="caption">
-        <span class="title"><strong>projects</strong></span>
-      </div>
-    </div>
-    
-    <div id="portfolio-section" class="section-details">
-      <div class="row">
-        <div class="col-sm-4">
-          <section class="project-tile">          
-            <img src="images/pdp.png" alt="PDP Website"> 
-            <h5 class="image-label">PDP Company Website</h5>
-            <section class="project-description-section">
-              <div class="project-description-text">
-                <h3 class="project-title">Power Delivery Products</h3>
-                <p>Refresh static webpage.</p>
-                <p>             
-                  Bootstrap 4, Javascript (with Sammy Lib)<br>
-                  Uses Google Maps API. 
-                </p>                               
-                <a href="http://www.powerdeliveryproducts.com/#/" target="_blank">Website</a>
-              </div>
-            </section>
-          </section>
-        </div>
-        <div class="col-sm-4">
-          <section class="project-tile">          
-            <img src="images/chatto.png" alt="Chatto o"> 
-            <h5 class="image-label">Chat App</h5>
-            <section class="project-description-section">
-              <div class="project-description-text">
-                <h3 class="project-title">Chatto</h3>
-                <p>Chat App project just for fun and learning</p>
-                <p>             
-                  Rails backend uses Devise-jwt to manage tokens.<br>
-                  React/Redux frontend uses material-ui for styling and React high-order-component for authorization checks. 
-                </p>                   
-                <p>
-                  <a href="https://github.com/BarbaraPruz/chatto" target="_blank">GitHub</a><br>
-                  <a href="https://secure-savannah-88233.herokuapp.com/" target="_blank">Heroku</a>
-                </p>                                 
-              </div>
-            </section>
-          </section>
-        </div>
-        <div class="col-sm-4">
-          <section class="project-tile">          
-            <img src="images/news4u.png" alt="news4u webapp"> 
-            <h5 class="image-label">news4u News Feed App</h5>
-            <section class="project-description-section">
-              <div class="project-description-text">
-                <h3 class="project-title">news4u</h3>
-                <p>Flatiron Bootcamp Portfolio Project using React/Redux with Rails.</p> 
-                <p>Pulls news information from newsapi.org.</p>          
-                <p>
-                  <a href="https://github.com/BarbaraPruz/news4u" target="_blank">GitHub</a><br>
-                  <a href="https://desolate-harbor-54820.herokuapp.com/" target="_blank">Heroku</a>
-                </p>          
-              </div>
-            </section>
-          </section>
-        </div>
-      </div>
-      <div class="row">           
-        <div class="col-sm-4">
-          <section class="project-tile">
-            <img src="images/ike.png" alt="ike knowledgebase">
-            <h5 class="image-label">‘ike Content Management App</h5>                
-            <section class="project-description-section">
-              <div class="project-description-text">
-                <h3 class="project-title">ike knowledgebase</h3>
-                <p>Flatiron Bootcamp Portfolio Project using Rails.</p>
-                <p>General 'knowledgebase' content management app.</p>
-                <p>
-                  <a href="https://github.com/BarbaraPruz/ike" target="_blank">GitHub</a><br>
-                  <a href="https://blooming-earth-90734.herokuapp.com" target="_blank">Heroku</a>
-                </p>          
-              </div>
-            </section>
-          </section>
-        </div> 
-     
-        <div class="col-sm-4">
-          <section class="project-tile">
-            <img src="images/bucketlist2.png" alt="bucketlist">
-            <h5 class="image-label">bucketlist Web App</h5>
-            <section class="project-description-section">
-              <div class="project-description-text">
-                <h3 class="project-title">bucketlist Web App</h3>
-                <p>Flatiron Bootcamp Portfolio Project.</p>
-                <p>Uses Ruby, Sinatra and ActiveRecord. MVC pattern.</p>
-                <p>
-                  <a href="https://github.com/BarbaraPruz/bucketlist" target="_blank">GitHub</a>
-                </p>                      
-              </div>                  
-            </section>                
-          </section>
-        </div> 
-
-        <div class="col-sm-4">
-          <section class="project-tile"> 
-            <img src="images/pomodoro.png" alt="Pen-PomodoroClock">
-            <h5 class="image-label">Pomodoro Clock - FrontEnd App</h5>
-            <section class="project-description-section">
-              <div class="project-description-text">               
-                <h3 class="project-title">Pomodoro Clock</h3>
-                <p>Free Code Camp Front End Project.</p>
-                <p>Uses jquery, javascript classes, and observer pattern.</p>
-                <p>
-                  <a href="https://codepen.io/barbarap/full/gXopqJ/" target="_blank">CodePen</a>
-                </p>
-              </div>
-            </section>
-          </section>
-        </div>   
-        <!-- <div class="col-sm-4">
-          <section class="project-tile"> 
-            <img src="images/weather.png" alt="Pen-LocalWeather">            
-            <h5 class="image-label">Local Weather - FrontEnd App</h5>
-            <section class="project-description-section">
-              <div class="project-description-text">
-                <h3 class="project-title">Local Weather</h3>             
-                <p>Free Code Camp Front End Project.</p>
-                <p>Uses ajax, jquery, and javascript.</p>
-                <p>
-                  <a href="https://codepen.io/barbarap/full/rzNedy/" target="_blank">CodePen</a>
-                </p>
-              </div>
-            </section>
-          </section>
-        </div>                            -->
-      </div> 
-    </div>  <!-- end portfolio section -->
-    
-    <div class="bgimg-3">
-      <div class="caption">
-        <span class="title">contact</span>
-      </div>
-    </div>  
-    <div id="contact-section" class="section-details">
-      <!-- <h2>contact</h2> -->
-        <p><strong>I'd like to hear from you!</strong></p>
-        <ul class="list-unstyled">
-          <li><a href="mailto:barbara.prusiewicz@gmail.com"><i class="fa fa-envelope-o"></i>&nbsp;Email barbara.prusiewicz@gmail.com</a></li>
-          <li><a href="https://www.linkedin.com/in/barbara-prusiewicz-a523945/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;LinkedIn</a></li>
-        </ul>
-    </div>       
-  </div>
-
-<!-- Bootstrap core JavaScript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
 </body>
 
 </html>
