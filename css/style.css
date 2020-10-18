@@ -1,7 +1,8 @@
 body{
-  font-family: 'Karla', sans-serif;
+  /* font-family: 'Karla', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  color: #2c1f2e;
+  color: #0d0d0d; /* #2c1f2e;*/
 }
 
 section {
@@ -16,7 +17,7 @@ section {
 }
 
 .shaded-section {
-  background-color: #E8E6E8;
+  background-color: #e6fdfe;/* #DEFCFE; #E8E6E8; */
 }
 
 h1, h2, h3, h4, h5 {
@@ -24,38 +25,40 @@ h1, h2, h3, h4, h5 {
 }
 h1 {
   font-weight: bold;
-  color: #58439E;
+  color: #040404;/* #58439E; */
 }
 
 h3, h4, h5 {
   font-weight: light;
-  color:#644a6a;/*#58439E; */
+  color: #040404;/* #644a6a;/*#58439E; */
 }
 
 h2 {
   font-weight: bold;
-  color: #644a6a;/*#58439E;*/
+  color: #040404;/*#644a6a;/*#58439E;*/
   font-size: 3em;
 }
 
 a {
- color: #644a6a;
+ color: #040404;/*#644a6a;*/
   
 }
-a:hover {
-  color:#9878d3;
+a:hover,
+.nav-link:hover {
+  color:#2CA3C5 !important;/*#9878d3;*/
 }
 
  
 /* intro section */
 #intro {
-    background-image: url("../images/puzzle2.jpg");
+    /* background-image: url("../images/puzzle2.jpg"); */
+    background-image: url("../images/banner-1005546_1920.jpg");
     background-size: cover;   
 }
 .info {
   border-radius: 8px;
-  color: #ede6ee;
-  background-color:#644a6a; 
+  color: #fff; /*#ede6ee;*/
+  background-color:#040404; /*#644a6a; */
   -moz-box-shadow: 20px 20px 20px #d2c3d5;
   -webkit-box-shadow: 20px 20px 20px  #d2c3d5;
   box-shadow: 20px 20px 20px #d2c3d5; 
@@ -66,7 +69,7 @@ a:hover {
  margin: .5em 1em;
 }
 .info p {
-  font-size: 1.25em;
+  font-size: 1em;
 }
 .button-panel {
     display: flex;
@@ -88,10 +91,13 @@ a:hover {
  
 /* about */
 .label {
-  font-weight: bold;
-  color:#835d89/*#926798;*/
+  font-weight: 900;
+  color: black; /*#835d89 #926798;*/
+  font-family: 'Raleway', sans-serif;
 }
-
+.subsection {
+  /* font-size: .9em; */
+}
 /* projects */
 
 /* portfolio style */
@@ -101,7 +107,7 @@ a:hover {
     margin-bottom: 10px; 
     height: var(--tile-width, 300px);
     width: var(--tile-width, 325px);
-    background-color:#E8E6E8;
+    background-color: #f2f2f2; /*#E8E6E8;*/
   }
    
   .project-tile img {
@@ -121,7 +127,7 @@ a:hover {
     height: 0;
     transition: .5s ease;
     font-size: 16px;
-    background-color: #E8E6E8;
+    background-color: #2496BB;/* #E8E6E8;*/
   }
   
   .project-description-section a {
@@ -148,6 +154,7 @@ a:hover {
     width: 325px;
     height: 100%;
     padding: 10px;
+    color: #fff;
   }
   
   .project-description-text h3 {
@@ -157,11 +164,15 @@ a:hover {
   .project-description-text a {
     font-weight: bold;
     font-size: 110%;
-    text-decoration: underline;
+    color: #fff;
   }
+  .project-description-text a:hover{
+    color:#fff !important;
+    text-decoration: underline;
+}
   
   .project-title {
-    color: #835d89;
+    color: #fff; /* #835d89;*/
   }
   
 /* contact */
