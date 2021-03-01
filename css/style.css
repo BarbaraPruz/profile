@@ -48,7 +48,6 @@ a:hover,
   color:#2CA3C5 !important;/*#9878d3;*/
 }
 
- 
 /* intro section */
 #intro {
     /* background-image: url("../images/puzzle2.jpg"); */
@@ -99,8 +98,14 @@ a:hover,
   /* font-size: .9em; */
 }
 /* projects */
+.subtext {
+  font-size:11px; 
+  font-weight:400;
+  width:60%;
+  float: right;
+  text-align:right;"
+}
 
-/* portfolio style */
 .project-tile {
     position: relative;
     padding: 10px 10px 0px 10px;
