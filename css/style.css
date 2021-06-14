@@ -9,7 +9,6 @@ section {
     padding-top:40px;
     padding-bottom: 30px;
     min-height: 100vh;
-    overflow: visible;    
     display: flex;
     flex-direction: column; 
     justify-content: center; 
@@ -176,10 +175,28 @@ a:hover,
     text-decoration: underline;
 }
   
-  .project-title {
+.project-title {
     color: #fff; /* #835d89;*/
   }
   
-/* contact */
+@media (max-width: 575px) {
+  #intro {
+    background-image: none;
+    margin-top: 50px;
+  }
+  section {
+    padding-top:20px;
+    padding-bottom: 15px;
+    min-height: 0;
+  }
+}
 
-
+@media (max-width: 280px) {
+  body {
+    font-size: 14px;
+  }
+  h1,h2, 
+  .info p {
+    font-size: 90%;
+  }
+}
