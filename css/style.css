@@ -102,7 +102,7 @@ a:hover,
   font-weight:400;
   width:60%;
   float: right;
-  text-align:right;"
+  text-align:right;
 }
 
 .project-tile {
@@ -194,9 +194,13 @@ a:hover,
 @media (max-width: 280px) {
   body {
     font-size: 14px;
+    text-align:center;
   }
   h1,h2, 
   .info p {
     font-size: 90%;
+  }
+  .info {
+    padding: 0;
   }
 }
