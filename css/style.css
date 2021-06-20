@@ -86,7 +86,11 @@ a:hover,
     text-decoration: none;
     display: inline-block;
 }
- 
+.skills-label {
+  display: flex;
+  flex-direction: column;
+}
+
 /* about */
 .label {
   font-weight: 900;
@@ -97,6 +101,10 @@ a:hover,
   /* font-size: .9em; */
 }
 /* projects */
+.project-subtitle {
+  text-align:right;
+}
+
 .subtext {
   font-size:11px; 
   font-weight:400;
@@ -184,6 +192,16 @@ a:hover,
     background-image: none;
     margin-top: 50px;
   }
+  .skills-label {
+    flex-direction: row;
+  }
+  .project-subtitle {
+    text-align:center;
+  }
+  .project-container {
+    text-align: center;
+  }
+
   section {
     padding-top:20px;
     padding-bottom: 15px;
