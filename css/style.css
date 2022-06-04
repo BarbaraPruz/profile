@@ -128,7 +128,8 @@ a:hover,
 
   .project-description {
     white-space: wrap;
-    width: 325px;
+    /* width: 325px; */
+    padding: 0 20px;
     font-size: 16px;
     color: #fff;
   }

@@ -101,6 +101,7 @@
                             <li>React, Redux, Gatsby, Ruby on Rails, AWS(Amplify, Lambda, IAM, etc.) </li>
                             <li>BootStrap, Material UI, Sass </li>
                             <li>Accessibility, UX, Design Patterns</li>
+                            <li>Jest, React Testing Library, Cypress</li>
                             <li>Git, Jira, Asana, Trello, Agile developement</li>
                         </ul>
                     </div>
@@ -110,82 +111,6 @@
 
         <section id="projects">
             <h2 class="text-center mt-4 mb-3">projects</h2>
-
-            <div class="project-row">
-                <div class="align-self-center">
-                    <h3 class="project-subtitle">just having fun</h3>
-                </div>
-
-                <div class="tile">
-                    <div class="tile__content">  
-                        <div class="tile__front">
-                            <img src="images/calculator.png" alt="calculator">                                         
-                        </div>
-                        <div class="tile__back">
-                            <div class="project-description">
-                                <h3 class="project-title">Savings Calculator</h3>   
-                                <p>Simple savings calculator.</p>
-                                <p>             
-                                    TypeScript React with useContext and ReCharts.
-                                </p>
-                                <p>             
-                                    Responsive design using Bootstrap. 
-                                </p>                       
-                                <p>
-                                    <a href="https://github.com/BarbaraPruz/InvestmentCalculator" target="_blank">GitHub Repository</a><br>
-                                    <a href="https://silly-leavitt-cda80b.netlify.app" target="_blank">Netlify App Page</a>
-                                </p>                                             
-                            </div>
-                        </div>                                 
-                     </div>
-                </div>
-
-                <div class="tile">  
-                    <div class="tile__content">
-                        <div class="tile__front">
-                            <img src="images/clocks.png" alt="clocks"> 
-                        </div>
-                        <div class="tile__back">
-                            <div class="project-description">
-                                <h3 class="project-title">World Clocks</h3>   
-                                <p>World timezones clock app.  Exploring React-Hooks!</p>
-                                <p>             
-                                    React with useState, useReducer and useEffect hooks.
-                                </p>
-                                <p>             
-                                    Responsive design using CSS Grid 
-                                </p>                       
-                                <p>
-                                    <a href="https://github.com/BarbaraPruz/clocks" target="_blank">GitHub Repository</a><br>
-                                    <a href="https://ecstatic-wilson-9b8e25.netlify.app/" target="_blank">Netlify App Page</a>
-                                </p>                                              
-                            </div>                                
-                        </div>
-                     </div>        
-                </div>
-
-                <div class="tile">
-                    <div class="tile__content">
-                        <div class="tile__front">         
-                            <img src="images/chatto.png" alt="Chatto"> 
-                        </div>
-                        <div class="tile__back">
-                            <div class="project-description">
-                                <h3 class="project-title">Chatto</h3>
-                                <p>Chat App project just for fun and learning</p>
-                                <p>             
-                                    Rails backend with Devise-jwt.<br>
-                                    React/Redux frontend with material-ui and React high-order-component for authorization checks. 
-                                </p>                   
-                                <p>
-                                    <a href="https://github.com/BarbaraPruz/chatto" target="_blank">GitHub</a><br>
-                                    <a href="https://secure-savannah-88233.herokuapp.com/" target="_blank">Heroku</a>
-                                </p>                                             
-                            </div>             
-                        </div>
-                    </div>                                                           
-                </div>
-            </div>
 
             <div class="project-row">
                 <div class="align-self-center">
@@ -275,7 +200,24 @@
                 <div class="align-self-center">
                     <h3 class="project-subtitle">volunteer and school time</h3>
                 </div>
-
+                <div class="tile">
+                    <div class="tile__content">
+                        <div class="tile__front">          
+                            <img src="images/dsa.png" alt="dream sports africa"> 
+                        </div>
+                        <div class="tile__back">
+                            <div class="project-description">
+                                <h3 class="project-title">Dream Sports Africa</h3>
+                                <p>Website for non-profit to increase visibility and donorship.
+                                </p> 
+                                <p>Gatsby, React, Contentful</p>          
+                                <p>
+                                <a href="https://dreamsportsafrica.org/" target="_blank">dreamsportsafrica.org</a><br>
+                                </p>          
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="tile">
                     <div class="tile__content">
                         <div class="tile__front">          
@@ -284,10 +226,9 @@
                         <div class="tile__back">
                             <div class="project-description">
                                 <h3 class="project-title">more human internet</h3>
-                                <p>Ongoing work building tools and helping non-profits with technology. Current development in progress with
-                                    <a href="https://www.dreamsportsafrica.org/" target="_blank">Dream Sports Africa</a>
+                                <p>Ongoing work building tools and helping non-profits with technology.
                                 </p> 
-                                <p>Gatsby, React, Redux, TypeScript, Contentful</p>          
+                                <p>Gatsby, React, Redux, TypeScript, Contentful, Webflow, Mapbox</p>          
                                 <p>
                                 <a href="https://morehumaninternet.org/" target="_blank">morehumaninternet.org</a><br>
                                 </p>          
@@ -315,7 +256,7 @@
                     </div>
                 </div> 
 
-                <div class="tile">
+<!--                 <div class="tile">
                     <div class="tile__content">
                         <div class="tile__front">         
                             <img src="images/ike.png" alt="ike knowledgebase">
@@ -332,8 +273,84 @@
                             </div>
                         </div>
                     </div>  
-                </div>        
+                </div>   -->      
             </div>
+            <div class="project-row">
+                <div class="align-self-center">
+                    <h3 class="project-subtitle">just having fun</h3>
+                </div>
+
+                <div class="tile">
+                    <div class="tile__content">  
+                        <div class="tile__front">
+                            <img src="images/calculator.png" alt="calculator">                                         
+                        </div>
+                        <div class="tile__back">
+                            <div class="project-description">
+                                <h3 class="project-title">Savings Calculator</h3>   
+                                <p>Simple savings calculator.</p>
+                                <p>             
+                                    TypeScript React with useContext and ReCharts.
+                                </p>
+                                <p>             
+                                    Responsive design using Bootstrap. 
+                                </p>                       
+                                <p>
+                                    <a href="https://github.com/BarbaraPruz/InvestmentCalculator" target="_blank">GitHub Repository</a><br>
+                                    <a href="https://silly-leavitt-cda80b.netlify.app" target="_blank">Netlify App Page</a>
+                                </p>                                             
+                            </div>
+                        </div>                                 
+                     </div>
+                </div>
+
+                <div class="tile">  
+                    <div class="tile__content">
+                        <div class="tile__front">
+                            <img src="images/clocks.png" alt="clocks"> 
+                        </div>
+                        <div class="tile__back">
+                            <div class="project-description">
+                                <h3 class="project-title">World Clocks</h3>   
+                                <p>World timezones clock app.  Exploring React-Hooks!</p>
+                                <p>             
+                                    React with useState, useReducer and useEffect hooks.
+                                </p>
+                                <p>             
+                                    Responsive design using CSS Grid 
+                                </p>                       
+                                <p>
+                                    <a href="https://github.com/BarbaraPruz/clocks" target="_blank">GitHub Repository</a><br>
+                                    <a href="https://ecstatic-wilson-9b8e25.netlify.app/" target="_blank">Netlify App Page</a>
+                                </p>                                              
+                            </div>                                
+                        </div>
+                     </div>        
+                </div>
+
+                <div class="tile">
+                    <div class="tile__content">
+                        <div class="tile__front">         
+                            <img src="images/chatto.png" alt="Chatto"> 
+                        </div>
+                        <div class="tile__back">
+                            <div class="project-description">
+                                <h3 class="project-title">Chatto</h3>
+                                <p>Chat App project just for fun and learning</p>
+                                <p>             
+                                    Rails backend with Devise-jwt.<br>
+                                    React/Redux frontend with material-ui and React high-order-component for authorization checks. 
+                                </p>                   
+                                <p>
+                                    <a href="https://github.com/BarbaraPruz/chatto" target="_blank">GitHub</a><br>
+                                    <a href="https://secure-savannah-88233.herokuapp.com/" target="_blank">Heroku</a>
+                                </p>                                             
+                            </div>             
+                        </div>
+                    </div>                                                           
+                </div>
+            </div>
+
         </section>
 
         <section id="contact" class="shaded-section">   
