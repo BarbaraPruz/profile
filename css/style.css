@@ -203,15 +203,27 @@ a:hover,
   transform: rotateY(180deg);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .project-row {
     display: flex;
     flex-direction: column;
   }
+  .project-row-description {
+    max-width: 50%;
+    margin: auto;
+  }
+  .project-subtitle {
+    text-align: center;
+  }
+  .tile img {
+    max-width: 350px;
+    height: auto;
+    margin: auto;
+  }
   .tile__front,
   .tile__back {
     width: 90%;
-    margin: atuo;
+    margin: auto;
   }
   .subtext {
     text-align: left;
