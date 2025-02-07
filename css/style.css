@@ -253,7 +253,7 @@ a:hover,
   }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 390px) {
   body {
     font-size: 14px;
     text-align: center;
@@ -268,5 +268,14 @@ a:hover,
   }
   .projects-container {
     padding-left: 0;
+  }
+  .tile {
+    width: 100%;
+    margin: auto;
+  }
+  .tile__front,
+  .tile__back {
+    width: 100%;
+    margin: auto;
   }
 }
